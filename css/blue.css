@@ -1,0 +1,14 @@
+body{
+    background-image: url('../img/bosque3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#logo{
+    background: #1f87c4;
+}
+#menu ul li:hover{
+    background: #1f87c4;
+}
+.button-more{
+    background: #1f87c4;
+}

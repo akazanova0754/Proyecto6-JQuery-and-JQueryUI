@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../jquery-1.13.2/jquery-ui.css">
+    <style>
+        #contenedor{
+            width: 400px; height: 400px;
+            background: lavender;
+        }
+    </style>
+</head>
+
+<script src="../jquery-3.6.1.min.js"></script>
+<script src="../jquery-1.13.2/jquery-ui.js"></script>
+<script src="widgets.js"></script>
+
+<body>
+    <h1>Tooltip</h1>
+    <div id="contenedor">
+        <a href="#" title="casa de verano en vaciones">casa</a>
+        <a href="#" title="hogar de invierno todos los años">hogar</a>
+        <a href="#" title="hola a todo el mundo">hola</a>
+    </div>
+    <a href="#" title="hola a todo el mundo">hola</a>
+    <h1>Dialog</h1>
+    <button id="ver">Ver Anuncio</button>
+    <div id="pop" title="¿estas seguro?" style="display: none;">
+        Bienvenido al anuncio.
+    </div>
+
+    <h1>Calendar</h1>
+    <input type="text" id="calendario">
+
+    <h1>Tabs</h1>
+    <div id="tab">
+        <ul>
+            <li><a href="#tab-1">Item1</a></li>
+            <li><a href="#tab-2">Item2</a></li>
+            <li><a href="#tab-3">Item3</a></li>
+        </ul>
+        <div id="tab-1">1 Seccion</div>
+        <div id="tab-2">2 Seccion</div>
+        <div id="tab-3">3 Seccion</div>
+    </div>
+    
+    
+
+</body>
+</html>
