@@ -242,6 +242,7 @@ footer{
     text-align: center;
     margin: 25px 0;
     width: 25%;
+    min-width: 140px;
     border-radius: 10%;
     box-shadow:0 0 3px 0px #333;
     background: #000;
@@ -283,7 +284,6 @@ form label[for="title_opi"]{
     display: none !important;
 }
 @media (max-width: 850px) {
-
     #contenido{
         display: flex;
         flex-direction: column;
