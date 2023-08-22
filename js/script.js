@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    if( window.location.href.indexOf('index') > -1){
+    if( window.location.href.indexOf('/') > -1 || window.location.href.indexOf('index') > -1 ){
         // Slider
         $("#galery").bxSlider({
             // mode:'fade',
